@@ -6,9 +6,6 @@ export const metadata: Metadata = {
   description: "Track your poker sessions and bankroll",
 };
 
-export const dynamic = "force-dynamic";
-export const revalidate = 0;
-
 export default function RootLayout({
   children,
 }: {
@@ -16,9 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-gray-50">
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

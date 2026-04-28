@@ -1,0 +1,11 @@
+node_modules
+.next
+out
+dist
+.DS_Store
+*.pem
+.env.local
+.env
+.env.*.local
+.vercel
+.netlify

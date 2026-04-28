@@ -1,4 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import './theme.css';
+
+.bg-black { background-color: rgb(0, 0, 0); }
+.text-white { color: rgb(255, 255, 255); }
+.text-gray-300 { color: rgb(209, 213, 219); }
+.text-gray-400 { color: rgb(156, 163, 175); }
+.bg-gray-900 { background-color: rgb(17, 24, 39); }
+.bg-blue-600 { background-color: rgb(37, 99, 235); }
+.bg-purple-600 { background-color: rgb(147, 51, 234); }
+.bg-cyan-600 { background-color: rgb(34, 211, 238); }
+.overflow-hidden { overflow: hidden; }
+.min-h-screen { min-height: 100vh; }
+.fixed { position: fixed; }
+.inset-0 { top: 0; right: 0; bottom: 0; left: 0; }
+.pointer-events-none { pointer-events: none; }
+.absolute { position: absolute; }
+.top-0 { top: 0; }
+.left-1\/4 { left: 25%; }
+.right-1\/4 { right: 25%; }
+.bottom-0 { bottom: 0; }
+.left-1\/2 { left: 50%; }
+.w-96 { width: 24rem; }
+.h-96 { height: 24rem; }
+.rounded-full { border-radius: 9999px; }
+.blur-3xl { filter: blur(64px); }
+.opacity-20 { opacity: 0.2; }
+.relative { position: relative; }
+.z-10 { z-index: 10; }
+.p-6 { padding: 1.5rem; }
+.md\:p-12 { @media (min-width: 768px) { padding: 3rem; } }

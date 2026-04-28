@@ -1,7 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  assetPrefix: '/poker-tracker/',
-  basePath: '/poker-tracker',
-};
+const nextConfig = {};
 
 export default nextConfig;

@@ -1,0 +1,20 @@
+@layer components {
+  .bg-black { @apply bg-black; }
+  .text-white { @apply text-white; }
+  .text-gray-300 { @apply text-gray-300; }
+  .text-gray-400 { @apply text-gray-400; }
+  .bg-gray-900 { @apply bg-gray-900; }
+  .bg-blue-600 { @apply bg-blue-600; }
+  .bg-purple-600 { @apply bg-purple-600; }
+  .bg-cyan-600 { @apply bg-cyan-600; }
+  .bg-gradient-to-r { @apply bg-gradient-to-r; }
+  .bg-gradient-to-br { @apply bg-gradient-to-br; }
+  .from-blue-400 { @apply from-blue-400; }
+  .from-blue-500 { @apply from-blue-500; }
+  .from-purple-400 { @apply from-purple-400; }
+  .from-cyan-500 { @apply from-cyan-500; }
+  .to-cyan-500 { @apply to-cyan-500; }
+  .to-purple-600 { @apply to-purple-600; }
+  .via-purple-400 { @apply via-purple-400; }
+  .border-gray-800 { @apply border-gray-800; }
+}
